@@ -1,4 +1,8 @@
-der{
+body{
+  background: url(../picture/background.jpg)
+}
+
+header{
   width:100%;
   height:100px;
   color:#fff;
