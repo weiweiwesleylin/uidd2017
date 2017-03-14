@@ -36,13 +36,13 @@ li a:hover:not(.active) {
     background-color: #000000;
 }
 
-signinwrapper{
+/*.aboutwrapper{
     padding-top:10%;
     width:40%;
     padding-left:10%;
 }
 
-.signinwrapper h1{
+.aboutwrapper h1{
     text-align:center;
     color:white;
     font-size:400%;
@@ -50,6 +50,11 @@ signinwrapper{
     font-family:sans-serif;
 }
 
-.signinwrapper p{
+.aboutwrapper p{
     color:white; 
+}
+*/
+.signinwrapper{
+    background:url(picture/signbg.png);
+    float:right;
 }
