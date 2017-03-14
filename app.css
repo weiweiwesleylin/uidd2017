@@ -1,5 +1,9 @@
+*{
+   box-sizing:border-box;
+}
 body {margin:0;
-   background:url(picture/background.jpg);   
+   background:url(picture/background.jpg);  
+   font-family: Microsoft JhengHei;
 }
 
 ul {
@@ -24,8 +28,8 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family:Microsoft JhengHei UI;
     font-size:19pt;
+    font-weight: lighter;
 }
 
 li a:hover:not(.active) {
@@ -55,6 +59,34 @@ li a:hover:not(.active) {
 }
 */
 .signinwrapper{
-    background:url(picture/signbg.png);
-    float:right;
+    width:25%;
+    height:320px;
+    position:absolute;
+    right:10%;
+    top:200px;
+    text-align:center;
+    background-color:rgba(0,0,0,0.4);
+    border-radius:25px;
 }
+
+.signinwrapper h2{
+   color:#ffffff;
+   font-style: italic;
+   font-size: 25px;
+}
+
+input{
+  width:90%;
+  padding:12px;
+  margin:15px;
+}
+
+input[type=text] {
+   background-color:rgba(100,100,100,0.4);
+   border:2px solid white;
+   border-radius:20px;
+}
+
+input[type=submit]{
+   border-radius:20px;
+   background-color:rgb(252,246,184);
