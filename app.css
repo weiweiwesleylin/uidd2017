@@ -7,7 +7,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(222, 222, 222, 0.3);
+    background:url(picture/column.png);
     position: fixed;
     top: 0;
     width: 100%;
@@ -15,7 +15,7 @@ ul {
 }
 
 li {
-    float: left;
+    float: right;
 }
 
 li a {
@@ -34,4 +34,22 @@ li a:hover:not(.active) {
 
 .active {
     background-color: #000000;
+}
+
+signinwrapper{
+    padding-top:10%;
+    width:40%;
+    padding-left:10%;
+}
+
+.signinwrapper h1{
+    text-align:center;
+    color:white;
+    font-size:400%;
+    font-style:italic;
+    font-family:sans-serif;
+}
+
+.signinwrapper p{
+    color:white; 
 }
