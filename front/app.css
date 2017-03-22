@@ -32,12 +32,6 @@ li a {
     font-weight: lighter;
 }
 
-li a:hover:not(.active) {
-    background-color: #111;
-}
-
-.active {
-    background-color: #000000;
 }
 
 /*.aboutwrapper{

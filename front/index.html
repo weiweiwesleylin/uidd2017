@@ -3,13 +3,15 @@
 <head>
   <title>FINtoGO</title>
   <link rel="stylesheet" href="app.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/jquery.ripples.js"></script>
 </head>
 <body>
   <ul>
-    <li><a href="#about">CONTACT</a></li>
-    <li><a href="#contact">SERVICE</a></li>
-    <li><a href="#news">ABOUT</a></li>
-    <li><a class="active" href="#home">HOME</a></li>
+    <li><a href="#contact">CONTACT</a></li>
+    <li><a href="#service">SERVICE</a></li>
+    <li><a href="#about">ABOUT</a></li>
+    <li><a href="#home">HOME</a></li>
   </ul>
   
 <!--  <div class="aboutwrapper">
@@ -25,9 +27,33 @@
     <form>
       <input type="text" id="email" name="email" placeholder="E-mail"><br>
       <input type="text" id="password" name="password" placeholder="Password"><br>
-      <input type="submit" value="Sign in">
+      <input type="submit" id="ajax" value="Sign in">
     </form>
-  </div>  
+  </div> 
+
+<script>
+  $("#ajax").click(function(e){
+  e.preventDefault();
+  var e1 = $("#email").val();
+  var p1 = $("#password").val();
+  if(e1="")
+  {alert("不要留下空白");return}
+  else if(p1="")
+  {alert("不要留下空白");return}
+  })
+  $("#ajax").click(function(){alert("thanks");
+  })
+</script>
+
+ <script>
+  $(document).ready(function(){
+    $('body').ripples({
+    resolution: 512,
+    dropRadius: 20,
+    perturbance: 0.04,
+    });
+    });
+  </script>
 </body>
 </html>
 
