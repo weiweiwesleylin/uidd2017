@@ -2,7 +2,7 @@
    box-sizing:border-box;
 }
 body {margin:0;
-   background:url(picture/background.jpg);  
+   background:url(../picture/background.jpg);  
    font-family: Microsoft JhengHei;
 }
 
@@ -11,7 +11,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background:url(picture/column.png);
+    background:url(../picture/column.png);
     position: fixed;
     top: 0;
     width: 100%;
